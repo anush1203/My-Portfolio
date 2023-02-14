@@ -37,6 +37,7 @@ const Home = () => {
               className="px-6 py-3  no-underline bg-[#E7E7F0] rounded hover:bg-[#3b82f6] hover:text-white text-[#181a1b] font-bold"
               href={resume}
               target={"_blank"}
+              rel={"noreferrer"}
             >
               Download Resume
             </a>

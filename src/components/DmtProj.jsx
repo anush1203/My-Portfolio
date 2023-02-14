@@ -43,6 +43,7 @@ const DmtProj = ({ onClose, visible }) => {
                 className="px-6 py-3 border border-black no-underline bg-[#e3e5de] rounded hover:border-[#3b82f6] hover:bg-[#3b82f6] hover:text-white text-black font-bold"
                 href={dmt_report}
                 target={"_blank"}
+                rel={"noreferrer"}
               >
                 See Report
               </a>

@@ -97,6 +97,7 @@ const Navbar = () => {
               className="flex justify-between item-center w-full text-gray-300"
               href="https://www.linkedin.com/in/anush-mandya-nagesh-a45340140/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -107,6 +108,7 @@ const Navbar = () => {
               className="flex justify-between item-center w-full text-gray-300"
               href="https://github.com/"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -126,6 +128,7 @@ const Navbar = () => {
               className="flex justify-between item-center w-full text-gray-300"
               href={resume}
               target={"_blank"}
+              rel="noreferrer"
             >
               Resume <BsPersonLinesFill size={30} />
             </a>
