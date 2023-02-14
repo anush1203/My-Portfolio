@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200&family=Patua+One&family=Raleway:wght@300&display=swap");
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+  .custom-heading-font {
+    @apply font-[Patua];
+  }
+
+  .custom-text-font {
+    @apply font-[Inter];
+  }
+}
+
+#home,
+#skill {
+  z-index: 1;
+  position: relative;
+}
+
+#navbar {
+  z-index: 2;
+  position: relative;
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
+}
