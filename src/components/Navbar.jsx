@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaLinkedin, FaGithub, FaGit } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsPersonLinesFill } from "react-icons/bs";
-import logo from "../assets/Anush_logo.jpg";
+
 import { Link } from "react-scroll";
 import resume from "../documents/Anush Resume 2023.pdf";
 

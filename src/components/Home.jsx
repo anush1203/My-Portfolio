@@ -1,8 +1,7 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+
 import resume from "../documents/Anush Resume 2023.pdf";
-import anush from "../assets/anush.jpg";
+
 import StarParticles from "./StarParticles";
 
 const Home = () => {
