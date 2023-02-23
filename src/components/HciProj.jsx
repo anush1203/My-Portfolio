@@ -9,16 +9,16 @@ const HciProj = ({ onClose, visible }) => {
   return (
     <div
       onClick={onClose}
-      className="bg-[#0A1B32] w-full h-screen fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
+      className="bg-[#0A1B32] w-full h-auto fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
       name="HciProj"
     >
       <div className="bg-[#f2f4f2] max-w-[800px] mx-auto rounded-3xl text-black">
-        <div className="grid grid-cols-3">
+        <div className="md:grid md:grid-cols-3">
           <div>
-            <img className="w-48 h-96 m-5" src={hci} alt="" />
+            <img className="hidden md:block w-48 h-96 m-5" src={hci} alt="" />
           </div>
 
-          <div className="col-span-2 m-5 custom-text-font">
+          <div className="md:col-span-2 m-5 custom-text-font">
             <h1 className="items-center justify-center flex text-xl font-bold text-[#3b82f6]">
               Human Computer Interaction
             </h1>

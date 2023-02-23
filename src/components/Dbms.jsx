@@ -9,7 +9,7 @@ const Dbms = ({ onClose, visible }) => {
   return (
     <div
       onClick={onClose}
-      className="bg-[#0A1B32] w-full h-screen fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
+      className="bg-[#0A1B32] w-full h-auto fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
       name="Dbms"
     >
       <div className="bg-white max-w-[800px] mx-auto rounded-3xl text-black">

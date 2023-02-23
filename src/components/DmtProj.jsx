@@ -10,19 +10,19 @@ const DmtProj = ({ onClose, visible }) => {
   return (
     <div
       onClick={onClose}
-      className="bg-[#0A1B32] w-full h-screen fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
+      className="bg-[#0A1B32] w-full h-auto fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
       name="DmtProj"
     >
       <div className="bg-white max-w-[800px] mx-auto rounded-3xl">
-        <div className="grid grid-cols-4 custom-text-font">
-          <div className="col-span-2">
-            <img className="w-120 h-96 m-5" src={dmt} alt="" />
+        <div className="md:grid md:grid-cols-4 custom-text-font">
+          <div className="md:col-span-2">
+            <img className="hidden md:block w-120 h-96 m-5" src={dmt} alt="" />
             <p className="text-black mt-2 mb-2 ml-5 text-center font-bold">
               Music recommendation for user based on popularity
             </p>
           </div>
 
-          <div className="col-span-2 m-5 text-black">
+          <div className="md:col-span-2 m-5 text-black">
             <h1 className="items-center justify-center flex text-xl font-bold text-[#3b82f6]">
               Data Mining Techniques
             </h1>
