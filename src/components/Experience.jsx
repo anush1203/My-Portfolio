@@ -4,21 +4,23 @@ import UALR from "../assets/ualr-logo.png";
 
 const Experience = () => {
   return (
-    <div name="Experience" className="w-full h-screen bg-white">
+    <div name="Experience" className=" bg-white">
       {/*container*/}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-auto">
         {/*Pacific Web Developers*/}
-        <div className="grid grid-cols-4 gap-5 mt-5">
+        <div className="md:grid md:grid-cols-4 gap-5 mt-5">
           <div className="">
             <img
-              className="rounded-full h-48 w-48"
+              className="hidden md:block rounded-full h-48 w-48"
               src={PWD}
               alt="Pacific Web Developers"
             />
           </div>
-          <div className="col-span-3 text-black pl-10 custom-text-font">
-            <p className="font-bold text-xl">Pacific Web Developers</p>
-            <p className="font-bold text-lg text-[#8892b0]">
+          <div className="md:col-span-3 text-black pl-10 custom-text-font">
+            <p className="font-bold text-lg md:text-xl">
+              Pacific Web Developers
+            </p>
+            <p className="font-bold text-md md:text-lg text-[#8892b0]">
               Co-Founder, Web Developer
             </p>
             <p className="text-sm align-middle">
@@ -32,19 +34,19 @@ const Experience = () => {
         <br />
         <hr />
         {/*UALR*/}
-        <div className="grid grid-cols-4 gap-5 mt-5">
+        <div className="md:grid md:grid-cols-4 gap-5 mt-5">
           <div className="">
             <img
-              className="rounded-full h-48 w-48"
+              className="hidden md:block rounded-full h-48 w-48"
               src={UALR}
               alt="University of Arkansas, Little Rock"
             />
           </div>
-          <div className="col-span-3 text-black pl-10 custom-text-font">
-            <p className="text-xl font-bold">
+          <div className="md:col-span-3 text-black pl-10 custom-text-font">
+            <p className="text-lg md:text-xl font-bold">
               University of Arkansas, Little Rock
             </p>
-            <p className="text-lg font-bold text-[#8892b0]">
+            <p className="text-md md:text-lg font-bold text-[#8892b0]">
               Research Fellowship
             </p>
             <p className="text-sm">

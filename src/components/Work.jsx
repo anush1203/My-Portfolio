@@ -28,13 +28,13 @@ const Work = () => {
   const closeModal6 = () => setShowModal6(false);
 
   return (
-    <div name="work" className="bg-white text-gray-300 w-full h-screen">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col items-center w-full h-full">
-        <div className="pb-4 mt-12 mb-6">
-          <span className="text-4xl font-bold text-black custom-heading-font">
+    <div name="work" className="bg-white text-gray-300 w-full h-auto">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col items-center">
+        <div className="pb-4 mt-12 mb-2">
+          <span className="text-2xl md:text-4xl font-bold text-black custom-heading-font">
             My
           </span>
-          <span className="text-4xl font-bold text-[#3b82f6] custom-heading-font pl-2">
+          <span className="text-2xl md:text-4xl font-bold text-[#3b82f6] custom-heading-font pl-2">
             Projects
           </span>
           {/* <p className="text-4xl font-bold inline text-[#3b82f6] custom-heading-font">
@@ -42,10 +42,10 @@ const Work = () => {
           </p> */}
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center">
+        <div className="w-full md:grid md:grid-cols-2 sm:grid-cols-3 gap-4 text-center">
           <div
             style={{ backgroundImage: `url(${MAD})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -65,7 +65,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${HCI})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -85,7 +85,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${PDP})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -105,7 +105,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${DMT})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -125,7 +125,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${DBMS})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -145,7 +145,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${UG})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="mt-5 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">

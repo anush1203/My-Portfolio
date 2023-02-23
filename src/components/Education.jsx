@@ -4,26 +4,26 @@ import NEU from "../assets/neu-logo.jpg";
 
 const Education = () => {
   return (
-    <div name="Education" className="w-full h-screen bg-white">
+    <div name="Education" className="bg-white">
       {/*container*/}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-auro">
         <div className="text-black pb-4 mt-12 mb-6">
-          <p className="text-4xl font-bold text-[#3b82f6] custom-heading-font">
+          <p className="text-2xl md:text-4xl font-bold text-[#3b82f6] custom-heading-font">
             Experience
           </p>
         </div>
         {/*ASICS Digital*/}
-        <div className="grid grid-cols-4 gap-5">
+        <div className="md:grid md:grid-cols-4 gap-5">
           <div>
             <img
-              className="rounded-full h-48 w-48"
+              className="hidden md:block rounded-full h-48 w-48"
               src={ADI}
               alt="ASICS Digital"
             />
           </div>
-          <div className="col-span-3 text-black pl-10 custom-text-font">
-            <p className="text-xl font-bold">ASICS Digital</p>
-            <p className="text-lg text-[#8892b0] font-bold">
+          <div className="justify-center md:col-span-3 text-black pl-10 custom-text-font">
+            <p className="text-lg md:text-xl font-bold">ASICS Digital</p>
+            <p className="text-md md:text-lg text-[#8892b0] font-bold">
               Software Engineer Co-Op
             </p>
             <ul className="list-disc list-inside text-sm">
@@ -50,23 +50,23 @@ const Education = () => {
         <br />
         <hr />
         {/*Northeastern University*/}
-        <div className="grid grid-cols-4 gap-5 mt-5">
+        <div className="md:grid md:grid-cols-4 gap-5 mt-5">
           <div>
             <img
-              className="rounded-full h-48 w-48"
+              className="hidden md:block rounded-full h-48 w-48"
               src={NEU}
               alt="ASICS Digital"
             />
           </div>
-          <div className="col-span-3 pl-10 custom-text-font">
+          <div className="justify-center md:col-span-3 pl-10 custom-text-font">
             <div className="text-black">
-              <p className="text-xl font-bold">
+              <p className="text-lg md:text-xl font-bold">
                 Khoury College - Teaching Assistant
               </p>
-              <p className="text-lg text-[#8892b0] font-bold">
+              <p className="text-md md:text-lg text-[#8892b0] font-bold">
                 CS5340 - Human Computer Interaction
               </p>
-              <p className="text-lg text-[#8892b0] font-bold">
+              <p className="text-md md:text-lg text-[#8892b0] font-bold">
                 CS1100 - Computer Science and Its Applications
               </p>
               <p className="text-sm">
@@ -77,8 +77,10 @@ const Education = () => {
             </div>
             <br />
             <div className="text-black">
-              <p className="text-xl font-bold">Northeastern University</p>
-              <p className="text-lg font-bold text-[#8892b0]">
+              <p className="text-lg md:text-xl font-bold">
+                Northeastern University
+              </p>
+              <p className="text-md md:text-lg font-bold text-[#8892b0]">
                 Residential Security Officer
               </p>
               <p className="text-sm">

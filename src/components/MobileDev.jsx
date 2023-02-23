@@ -9,20 +9,20 @@ const MobileDev = ({ onClose, visible }) => {
   return (
     <div
       onClick={onClose}
-      className="bg-[#0A1B32] w-full h-screen fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
+      className="bg-[#0A1B32] w-full md:w-auto h-auto fixed inset-0 bg-opacity-30 backdrop-blur-sm flex justify-center items-center"
       name="MobileDev"
     >
       <div className="bg-white max-w-[800px] mx-auto rounded-3xl">
-        <div className="grid grid-cols-3">
+        <div className="md:grid md:grid-cols-3">
           <div>
-            <img className="w-60 h-96 m-5" src={mad} alt="" />
+            <img className="hidden md:block w-60 h-96 m-5" src={mad} alt="" />
 
-            <p className="text-black mt-2 mb-2 ml-5 text-center font-bold">
+            <p className="hidden md:block text-black mt-2 mb-2 ml-5 text-center font-bold">
               Quizz section for technical section
             </p>
           </div>
 
-          <div className="col-span-2 m-5 text-black custom-text-font">
+          <div className="md:col-span-2 m-5 text-black custom-text-font">
             <h1 className="items-center justify-center flex text-xl font-bold text-[#3b82f6]">
               Mobile Application Development
             </h1>

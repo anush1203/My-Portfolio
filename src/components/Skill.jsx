@@ -15,16 +15,16 @@ import StarParticles from "./StarParticles";
 
 const Skill = () => {
   return (
-    <div name="Skill" className="bg-[#181a1b] text-black w-full h-screen">
+    <div name="Skill" className="bg-[#181a1b] text-black w-full h-auto">
       <div
-        className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full"
+        className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full"
         id="skill"
       >
         <div className="text-black">
-          <span className="text-4xl font-bold text-white custom-heading-font">
+          <span className="text-2xl md:text-4xl font-bold text-white custom-heading-font">
             Technical
           </span>
-          <span className="text-4xl font-bold text-[#3b82f6] custom-heading-font pl-3">
+          <span className="text-2xl md:text-4xl font-bold text-[#3b82f6] custom-heading-font pl-3">
             Skills
           </span>
           {/* <p className="text-4xl font-bold inline text-[#3b82f6] custom-heading-font">
@@ -32,7 +32,7 @@ const Skill = () => {
           </p> */}
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-8 ">
+        <div className="w-full grid grid-cols-3 md:grid-cols-6 gap-4 text-center py-8 ">
           <div className="hover:scale-110 duration-500">
             <img className="w-20 mt-5 mx-auto " src={html} alt="html icon" />
             <p className="my-4 text-white font-bold">HTML</p>

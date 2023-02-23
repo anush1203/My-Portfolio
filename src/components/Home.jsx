@@ -6,7 +6,7 @@ import StarParticles from "./StarParticles";
 
 const Home = () => {
   return (
-    <div name="Home" className="w-full h-screen bg-[#181a1b]">
+    <div name="Home" className="md:pb-24 bg-[#181a1b]">
       {/*container*/}
       <div
         className="max-w-[800px] mx-auto px-8 flex flex-col justify-center h-full"
@@ -19,18 +19,11 @@ const Home = () => {
             Anush Nagesh
           </h1>
 
-          <h2 className="text-2xl font-bold text-[#dcdcdc] py-4">
+          <h2 className="text-md md:text-2xl font-bold text-[#dcdcdc] py-4">
             I am a Graduate Computer Science Student at Northeastern University.
             I spend my day-to-day Leetcoding or developing projects with React
             and Node.
           </h2>
-
-          <p className="text-black py-4 max-w-[700px]">
-            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Viverra justo nec ultrices dui sapien. Nisi porta lorem mollis
-              aliquam ut porttitor leo. */}
-          </p>
 
           <div className="mt-8">
             <a
